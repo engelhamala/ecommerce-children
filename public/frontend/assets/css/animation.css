@@ -1,0 +1,56 @@
+@keyframes moving {
+    50% {
+     width: 100%;
+    }
+
+    100% {
+     width: 0;
+     right: 0;
+     left: unset;
+    }
+   }
+ /* ############################################################ */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #999;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+}
+/* ############################################################ */
+@keyframes docs {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-15%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+/* ############################################################ */
+@keyframes downloadArrow {
+    0% {
+        margin-top: -7px;
+        opacity: 1;
+    }
+
+    0.001% {
+        margin-top: -15px;
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 0.4;
+    }
+}
